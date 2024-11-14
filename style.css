@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0vw;
+}
+header {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+    h1 {
+        color: white;
+        position: absolute;
+        left: 30px;
+        top: 5px;
+    }
+    header a {
+        color: white;
+        text-decoration: none;
+    }
+    header a:hover {
+        text-decoration: underline;
+    }
+    header li {
+        display: inline;
+        margin-right: 5vw;
+        border: 1px solid #ffffff;
+        padding: 2px 3px;
+        border-radius: 7px 7px;
+    }
+    header ul {
+        position: absolute;
+        right: 5vw;
+        top: 0.75vw;
+    }
+.main {
+    background-color: #5e556e;
+    height: 80vh;
+    background-image: url(photo/CFF.No.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 80px;
+    border: 20px #3a3a3a solid;
+}
+    .main li {
+        display: inline;
+        margin-right: 15vw;
+        padding: 40px 40px;
+    }
+    .main ul {
+        background: #3a3a3a2d;
+        height: 40px;
+        right: 20vw;
+        left: 20vw;
+        border: 5px #3a3a3a31 solid;
+        border-radius: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    .main a {
+        color: #313131e1;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .main a:hover {
+        text-decoration: underline;
+    }
+    footer {
+    background-color: gray;
+    height: auto;
+    width: 100%;
+    position: absolute;
+}
+/*  */
+@media screen and (max-width:768px){
+    header ul {
+        display: none;
+    }
+    header h1 {
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 25px;
+    }
+}
