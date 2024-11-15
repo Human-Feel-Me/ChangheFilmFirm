@@ -74,6 +74,33 @@ header {
     width: 100%;
     position: absolute;
 }
+.main1 {
+    background-color: #383838;
+    height: 80vh;
+    background-image: url(#);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 80px;
+    border: 50px #3a3a3a solid;
+}
+    .main1 li {
+        display: inline;
+        margin-right: 15vw;
+        padding: 40px 40px;
+    }
+    .main1 ul {
+        background: #3a3a3a2d;
+        height: 40px;
+        right: 20vw;
+        left: 20vw;
+        border: 5px #3a3a3a31 solid;
+        border-radius: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
 /*  */
 @media screen and (max-width:768px){
     header {
