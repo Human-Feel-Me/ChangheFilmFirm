@@ -77,18 +77,19 @@ header {
 .main1 {
     background-color: #383838;
     height: 80vh;
-    background-image: url(photo/6E7718CCED66514EEA866FBCB845AA6A.jpg);
+    background-image: url(photo/9A887D9CFA243B6AB41F4712A6143F50.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 80px 80px;
     border: 50px #3a3a3a solid;
 }
     .main1 li {
         display: inline;
         margin-right: 15vw;
-        padding: 40px 40px;
+        padding: 40px 10px;
+        margin: 40px 10px;
     }
     .main1 ul {
         background: #3a3a3a2d;
@@ -100,6 +101,13 @@ header {
         display: flex;
         align-items: center;
         justify-items: center;
+    }
+    .main1 h2 {
+        color: #ffffffd7;
+        font-size: 80px;
+    }
+    .main p {
+        color: #ffffff;
     }
 /*  */
 @media screen and (max-width:768px){
