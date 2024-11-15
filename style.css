@@ -3,7 +3,7 @@
     margin: 0vw;
 }
 header {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.541);
     height: 50px;
     width: 100%;
     position: fixed;
@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     padding: 80px 80px;
-    border: 20px #3a3a3a solid;
+    border: 50px #3a3a3a solid;
 }
     .main li {
         display: inline;
@@ -76,6 +76,10 @@ header {
 }
 /*  */
 @media screen and (max-width:768px){
+    header {
+        height: 50px;
+        width: 100vw;
+    }
     header ul {
         display: none;
     }
