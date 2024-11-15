@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0vw;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+    h1 {
+        color: white;
+    }
+    .about {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+
+}
