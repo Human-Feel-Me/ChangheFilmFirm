@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0vw;
+}
+
+header h1 {
+    background-color: black;
+}
+
+.video {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

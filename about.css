@@ -2,18 +2,103 @@
     padding: 0px;
     margin: 0vw;
 }
+
 header {
     background-color: rgba(0, 0, 0, 0.541);
     height: 50px;
     width: 100%;
     position: fixed;
 }
+
     h1 {
         color: white;
+        position: absolute;
+        left: 30px;
+        top: 5px;
     }
-    .about {
-    background-color: black;
-    height: 50px;
-    width: 100%;
 
+    header a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header a:hover {
+        text-decoration: underline;
+    }
+
+    header li {
+        display: inline;
+        margin-right: 5vw;
+        border: 1px solid #ffffff;
+        padding: 2px 3px;
+        border-radius: 7px 7px;
+    }
+
+    header ul {
+        position: absolute;
+        right: 5vw;
+        top: 0.75vw;
+    }
+
+.main1 {
+    background-color: #383838;
+    height: 80vh;
+    background-image: url(photo/9A887D9CFA243B6AB41F4712A6143F50.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 80px;
+    border: 50px #3a3a3a solid;
 }
+
+.main2 {
+    background-color: #383838;
+    height: 80vh;
+    background-image: url(photo/B98F67C215D7316AAAC2C9088707A98D.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    padding: 80px 80px;
+    border: 50px #3a3a3a solid;
+}
+
+    .main1 li {
+        margin-right: 15vw;
+        padding: 40px 10px;
+        margin: 40px 10px;
+    }
+
+    .main1 ul {
+        background: #3a3a3a2d;
+        height: 40px;
+        right: 20vw;
+        left: 20vw;
+        border: 5px #3a3a3a31 solid;
+        border-radius: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .main1 h2 {
+        color: #ffffffd7;
+        font-size: 80px;
+    }
+
+    .mian1 h3 {
+        color: #ffffff;
+        font-size: 100px;
+    }
+
+    .main2 h2 {
+        color: #ffffffd7;
+        font-size: 80px;
+    }
+
+    .mian1 h3 {
+        color: #ffffff;
+        font-size: 100px;
+    }
