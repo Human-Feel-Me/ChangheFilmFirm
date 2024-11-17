@@ -46,6 +46,7 @@ header {
     background-image: url(photo/CFF.No.1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: space-evenly;
     padding: 80px 80px;
