@@ -43,6 +43,7 @@ header {
 .main {
     background-color: #383838;
     height: 80vh;
+    width: 85vw;
     background-image: url(photo/CFF.No.1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
