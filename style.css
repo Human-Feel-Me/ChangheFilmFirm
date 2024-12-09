@@ -43,7 +43,6 @@ header {
 .main {
     background-color: #383838;
     height: 80vh;
-    width: 85vw;
     background-image: url(photo/CFF.No.1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,6 +87,27 @@ header {
     width: 100%;
     position: absolute;
 }
+
+.main2 {
+    background-color: #383838;
+    height: 80vh;
+    background-image: url(photo/CFF.No.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 80px;
+    border: 50px #3a3a3a solid;
+}
+
+.main2 a {
+    color: #383838;
+    text-decoration: none;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
 
 /*  */
 @media screen and (max-width:768px){
