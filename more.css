@@ -2,3 +2,26 @@
     padding: 0px;
     margin: 0vw;
 }
+
+header {
+    background-color: #383838;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
