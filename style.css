@@ -8,6 +8,7 @@ header {
     height: 50px;
     width: 100%;
     position: fixed;
+    background-image: url(#);
 }
 
     h1 {
@@ -43,7 +44,7 @@ header {
 .main {
     background-color: #383838;
     height: 80vh;
-    background-image: url(photo/CFF.No.1.jpg);
+    background-image: url(photo/qqwerq3tgwdgsedgsg_画板\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
