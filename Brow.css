@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0vw;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+  h1 {
+        color: white;
+        position: absolute;
+        left: 40px;
+        top: 2px;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+    }
+
+   	header li {
+        display: inline;
+        margin-right: 45px;
+        padding: 2px;
+    }
+
+    header ul {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+
+.Main1 {
+	width:100%;
+	height:auto;
+	background-size:cover;
+	background-position: center;
+	background-color: black ;
+}
+
+.Main1 h2 {
+	padding-top:80px;
+	padding-left:40px;
+	color:white;
+	padding-bottom:80px;
+}
+
+.Main1 h3 {
+	padding-top:80px;
+	padding-left:40px;
+	color:white;
+	padding-bottom:40px;
+}
+
+.Main1 a {
+	color:white;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.Main1 img {
+	position: absolute;
+	padding-left:300px;
+	top: 65px;	
+}
+
+.Main2 {
+	background-color: black;
+	height:auto;
+}
+
+.Main2 h2 {
+	text-align: right;
+	padding-top:60px;
+	padding-right:40px;
+	color:white;
+	padding-bottom:80px;
+}
+
+.Main2 h3 {
+	padding-top:80px;
+	padding-left:40px;
+	color:white;
+	padding-bottom:40px;
+}
+
+.Main2 a {
+	color:white;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.Main2 img {
+	position: absolute;
+	right:325px;
+	top:235px;
+}
+
+	
+
+
+/*  */
+@media screen and (max-width:768px){
+    header {
+        height: 50px;
+        width: 100vw;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header h1 {
+        left: 50%;
+		top:3px;
+        transform: translate(-50%);
+        font-size: 20px;
+    }
+
+}

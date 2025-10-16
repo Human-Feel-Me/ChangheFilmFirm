@@ -4,111 +4,374 @@
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.541);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 50px;
     width: 100%;
     position: fixed;
     background-image: url(#);
+	backdrop-filter: blur(10px);
+	z-index: 2;
 }
 
     h1 {
         color: white;
         position: absolute;
-        left: 30px;
+        left: 80px;
         top: 5px;
+		letter-spacing: 2px;
+		transition-duration: 0.4s;
+		
     }
+
+header h1:hover {
+	letter-spacing: 5px;
+	transition: letter-spacing 0.8s;
+}
 
     header a {
         color: white;
         text-decoration: none;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		border-radius: 5px;
+		transition-duration: 0.5s;
+		transition-delay: 0.3s;
     }
 
-    header a:hover {
-        text-decoration: underline;
-    }
+	header a:hover {
+		background-color: rgba(123,123,123,0.50);
+		transition: background-color 0.5s;
+	}
 
-    header li {
+   	header li {
         display: inline;
-        margin-right: 5vw;
-        border: 1px solid #ffffff;
-        padding: 2px 3px;
-        border-radius: 7px 7px;
+        padding: 2px;
+		margin-left: 5px;
+		margin-right: 5px;
     }
 
     header ul {
         position: absolute;
-        right: 5vw;
-        top: 0.75vw;
+        right: 10px;
+        top: 15px;
     }
+	
+	header img {
+		position: absolute;
+		left: 30px;
+		top: 10px;
+	}
 
-.main {
-    background-color: #383838;
-    height: 80vh;
-    background-image: url(photo/qqwerq3tgwdgsedgsg_画板\ 1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 80px 80px;
-    border: 50px #3a3a3a solid;
+
+#index {
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-bottom: 20px;
 }
 
-    .main li {
-        display: inline;
-        margin-right: 15vw;
-        padding: 40px 40px;
-    }
-
-    .main ul {
-        background: #3a3a3a2d;
-        height: 40px;
-        right: 20vw;
-        left: 20vw;
-        border: 5px #3a3a3a31 solid;
-        border-radius: 10px 10px;
-        display: flex;
-        align-items: center;
-        justify-items: center;
-    }
-
-    .main a {
-        color: #313131e1;
-        text-decoration: none;
-        font-size: 30px;
-    }
-
-    .main a:hover {
-        text-decoration: underline;
-    }
-
-    footer {
-    background-color: gray;
-    height: auto;
-    width: 100%;
-    position: absolute;
+#index video {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
 }
 
-.main2 {
-    background-color: #383838;
-    height: 80vh;
-    background-image: url(photo/CFF.No.1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 80px 80px;
-    border: 50px #3a3a3a solid;
+.Main {
+	width:100%;
+	height:500px;
+	background: url("photo/cfc.png");
+	background-size:cover;
+	background-position: center;
 }
 
-.main2 a {
-    color: #383838;
-    text-decoration: none;
+
+
+.Main h2 {
+	padding-top:150px;
+	padding-left:30px;
+	color:white;
+	text-align: center;
 }
 
-.main a:hover {
-    text-decoration: underline;
+.Main h3 {
+	color: white;
+	text-decoration:none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+	text-align: center;
 }
 
+.Main h3:hover {
+	letter-spacing: 5px;
+	transition: letter-spacing 0.5s;
+}
+
+.Main h4 {
+	font-size: 15px;
+	color: rgba(0,0,0,0.00);
+	text-align: center;
+	transition-duration: 0.5s;
+}
+
+.Main h4:hover {
+	font-size: 20px;
+	color: rgba(255,255,255,1.00);
+	transition: font-size 0.5s,color 0.5s;
+}
+
+.Main div {
+	font-size: 20px;
+}
+
+.Main a {
+	color: white;
+	text-decoration:none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+	text-align: center;
+}
+
+.Main a:hover {
+	background-color: rgba(123,123,123,0.50);
+	text-decoration-color: rgba(0,0,0,0.00);
+	transition: background-color 0.5s,text-decoration 0.5s,;
+}
+
+
+
+.Main2 {
+	position: absolute;
+	left: 10vw;
+	right: 10vw;
+	top: 465px;
+	height:35px;
+	background: linear-gradient(to bottom,rgba(0,0,0,0.00),rgba(110,110,110,0.80));
+	opacity:80%;
+}
+
+
+	.Main2 h2 {
+		color: white;
+		text-align: center;
+		
+	}
+
+.Main3 {
+	width: 100%;
+	height:auto;
+	background-color: rgba(110,110,110,1.00);
+	text-align: center;
+	margin-bottom: 40px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	opacity:80%;
+	transition-duration: 0.5s;
+	backdrop-filter: blur(10px);
+	overflow: none;
+}
+
+.Main3:hover {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	transition: border-bottom-right-radius 0.5s,border-bottom-left-radius 0.5s;
+}
+
+.Main3 h2 {
+	padding-top:80px;
+	color:white;
+}
+
+.Main3 p {
+	padding-top:5px;
+	padding-bottom: 80px;
+	color:white;
+	font-size:18px;
+}
+
+.Main3 a {
+    color: white;
+    text-decoration:none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+}
+
+.Main3 a:hover {
+	background-color: rgba(123,123,123,0.50);
+	text-decoration-color: rgba(0,0,0,0.00);
+	transition: background-color 0.5s,text-decoration 0.5s,;
+}
+
+.Main4 {
+	width: 100%;
+	height:auto;
+	background-color: rgba(110,110,110,1.00);
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-radius: 50px;
+	opacity:80%;
+	transition-duration: 0.5s;
+	backdrop-filter: blur(10px);
+}
+
+.Main4:hover {
+	border-radius: 0px;
+	transition: border-radius 0.5s;
+}
+
+.Main4 h2 {
+	padding-top:80px;
+	color:white;
+}
+
+.Main4 p {
+	padding-top:5px;
+	padding-bottom: 80px;
+	color:white;
+	font-size:18px;
+}
+
+.Main4 a {
+	color: white;
+    text-decoration:none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+}
+
+.Main4 a:hover {
+	background-color: rgba(123,123,123,1);
+	text-decoration-color: rgba(0,0,0,0.00);
+	transition: background-color 0.5s,text-decoration 0.5s,;
+}
+
+.Main5 {
+	width: 100%;
+	height:auto;
+	background-color: rgba(110,110,110,1.00);
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-radius: 50px;
+	opacity:80%;
+	transition-duration: 0.5s;
+	backdrop-filter: blur(10px);
+	}
+
+.Main5:hover {
+	border-radius: 0px;
+	transition: border-radius 0.5s;
+}
+
+	.Main5 h2 {
+		padding-top:80px;
+		color:white;
+	}
+
+	.Main5 p {
+		padding-top:5px;
+		padding-bottom: 80px;
+		color:white;
+		font-size:18px;
+		
+	}
+
+	.Main5 a {
+        color: white;
+        text-decoration:none;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 5px;
+		transition-duration: 0.5s;
+    }
+
+	.Main5 a:hover {
+		background-color: rgba(123,123,123,1);
+		text-decoration-color: rgba(0,0,0,0.00);
+		transition: background-color 0.5s,text-decoration 0.5s,;
+	}
+
+.Main6 {
+	width: 100%;
+	height:auto;
+	background-color: rgba(110,110,110,1.00);
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-radius: 50px;
+	opacity:80%;
+	transition-duration: 0.5s;
+	backdrop-filter: blur(10px);
+}
+
+.Main6:hover {
+	border-radius: 0px;
+	transition: border-radius 0.5s;
+}
+
+.Main6 h2 {
+	padding-top:80px;
+	color:white;
+}
+
+.Main6 p {
+	padding-top:5px;
+	padding-bottom: 80px;
+	color:white;
+	font-size:18px;
+}
+
+.Main6 a {
+	color: white;
+    text-decoration:none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+}
+
+.Main6 a:hover {
+	background-color: rgba(123,123,123,1);
+	text-decoration-color: rgba(0,0,0,0.00);
+	transition: background-color 0.5s,text-decoration 0.5s,;
+}
+
+
+
+footer {
+	background-color:rgba(0,0,0,1.0);
+	height:40px;
+}
+
+	footer h4 {
+		padding-top:10px;
+		color:white;
+		text-align: center;
+	}
 
 /*  */
 @media screen and (max-width:768px){
@@ -123,6 +386,7 @@ header {
 
     header h1 {
         left: 50%;
+		top:3px;
         transform: translate(-50%);
         font-size: 20px;
     }
