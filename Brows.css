@@ -1,0 +1,574 @@
+/* widescreem  */
+	* {
+    padding: 0px;
+    margin: 0vw;
+	 background-color: rgba(0,0,0,1);
+	cursor: url("photo/cur1.png"),auto;
+}
+
+* a:hover {
+	cursor: url("photo/cur2.png"),auto;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-image: url(#);
+	backdrop-filter: blur(10px);
+	z-index: 2;
+}
+
+header:hover h1 {
+	letter-spacing: 5px;
+	transition: letter-spacing 0.8s;
+}
+
+ h1 {
+	color: rgba(255,255,255,1.00);
+	position: absolute;
+	left: 13%;
+	margin-top:3px; 
+	letter-spacing: 2px;
+	transition-duration: 0.4s;
+	user-select: none;
+}
+
+header img {
+	position: absolute;
+	left: 10%;
+	margin-top:12px; 
+	user-select: none;
+}
+
+header a {
+    color: rgba(131,131,131,1.00);
+    text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	user-select: none;
+	transition-duration: 0.5s;
+}
+
+header a:hover {
+	color: rgba(255,255,255,1.00);
+	transition:color 0.5s;
+}
+
+header li {
+	display: inline;
+}
+
+header ul {
+    position: absolute;
+	right: 10%;
+	top: 15px;
+	user-select: none;
+}
+
+.ind {
+	background-color: rgba(0,0,0,1.00)
+}
+
+.Main {
+	margin-left: 10%;
+	margin-right: 10%;
+	position: absolute;
+	width:80%;
+	height:400px;
+	background: linear-gradient(90deg,rgba(00,0,0,1.00),rgba(255,255,255,0.00),rgba(00,0,0,1.00)),url("BG/CFS_Art/CFS_Art.png");
+	background-size:100%;
+	background-position: center;
+	user-select: none;
+	transition-duration: 0.5s;
+	transform: translateZ(0); /* 触发 GPU 加速 */
+	will-change: transform; /* 提示浏览器优化 */
+}
+
+.Main:hover {
+	background-size:110%;
+	background-position: center;
+	user-select: none;
+}
+
+.Main:hover h4 {
+	font-size: 20px;
+	color: rgba(255,255,255,1.00);
+	transition: font-size 0.5s,color 0.5s;
+}
+
+.Main h2 {
+	padding-top:150px;
+	color:white;
+	text-align: center;
+}
+
+.Main h3 {
+	color: white;
+	text-decoration:none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+	text-align: center;
+}
+
+.Main h3:hover {
+	letter-spacing: 5px;
+	transition: letter-spacing 0.5s;
+}
+
+.Main h4 {
+	font-size: 15px;
+	color: rgba(0,0,0,0.00);
+	text-align: center;
+	transition-duration: 0.5s;
+}
+
+.Main div {
+	font-size: 20px;
+}
+
+.Main a {
+	color: white;
+	text-decoration:none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+	text-align: center;
+}
+
+.Main a:hover {
+	background-color: rgba(123,123,123,0.50);
+	text-decoration-color: rgba(0,0,0,0.00);
+	transition: background-color 0.5s,text-decoration 0.5s,;
+}
+
+.st {
+	position: absolute;
+	left: 10vw;
+	right: 10vw;
+	top: 400px;
+	height:35px;
+	user-select: none;
+}
+
+
+.st h2 {
+		color: white;
+		text-align: center;
+	}
+
+.vertical {
+	display: flex;
+	flex-direction: column;
+	transform: translate(0,450px);
+}
+
+.horizon {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}	
+
+
+.brw_WP {
+	width: 300px;
+	height:200px;
+	text-align: center;
+	transition-duration: 0.5s;
+	backdrop-filter: blur(3px);
+	margin-right: 25px;
+	overflow: none;
+	user-select: none;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background: url("brw/CFSART_Wall_Paper/Tennkinoko_Daijoubu_Tokyo.png");
+	background-position: center;
+	background-size: 140%;
+	background-repeat: no-repeat;
+	transform: translateZ(0); /* 触发 GPU 加速 */
+	will-change: transform; /* 提示浏览器优化 */
+}
+
+.brw_WP:hover {
+	background: url("brw/CFSART_Wall_Paper/Tennkinoko_Huahuodahui_Shibuya.png") center;
+	background-size: 180%;
+}
+
+.brw_WP h2 {
+	padding-top:40px;
+	color:white;
+	background-color: rgba(0,0,0,0.00);
+}
+
+.brw_WP a {
+    color: rgba(183,183,183,1.00);
+	background-color: rgba(0,0,0,0.50);
+	backdrop-filter: blur(3px);
+	overflow: none;
+    text-decoration:none;
+	padding: 5px;
+	border-radius: 10px;
+	transition-duration: 0.5s;
+}
+
+.brw_WP a:hover {
+	text-decoration-color: rgba(0,0,0,0.00);
+	color: rgb(186, 233, 255);
+	background-color: rgba(0,0,0,0.00);
+	backdrop-filter: blur(0px);
+	overflow: none;
+}
+
+.brw_WP p {
+	padding-top:20px;
+	padding-bottom: 80px;
+	padding-left: 35px;
+	padding-right: 35px;
+	color:rgba(183,183,183,0.00);
+	font-size:18px;
+	transition-duration: 0.5s;
+	transition-delay: 0.5s;
+}
+
+.brw_WP:hover p {
+	transform: translate(0,-10px);
+	color:rgba(183,183,183,1.00);
+	transition-delay: 0s;
+}
+
+.brw_CS {
+	width: 300px;
+	height:200px;
+	text-align: center;
+	transition-duration: 0.5s;
+	backdrop-filter: blur(3px);
+	margin-left: 25px;
+	overflow: none;
+	user-select: none;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: url("BG/CFS_Art/CFS_Art.png");
+	background-position: center;
+	background-size: 140%;
+	background-repeat: no-repeat;
+	transform: translateZ(0); /* 触发 GPU 加速 */
+	will-change: transform; /* 提示浏览器优化 */
+}
+
+.brw_CS:hover {
+	background: url("BG/CFS_Art_02/CFS_Art_02.png") center;
+	background-size: 180%;
+}
+
+.brw_CS h2 {
+	padding-top:40px;
+	color:white;
+	background-color: rgba(0,0,0,0.00);
+}
+
+.brw_CS a {
+    color: rgba(183,183,183,1.00);
+	background-color: rgba(0,0,0,0.50);
+	backdrop-filter: blur(3px);
+	overflow: none;
+    text-decoration:none;
+	padding: 5px;
+	border-radius: 10px;
+	transition-duration: 0.5s;
+}
+
+.brw_CS a:hover {
+	text-decoration-color: rgba(0,0,0,0.00);
+	color: rgb(255, 230, 90);
+	background-color: rgba(0,0,0,0.00);
+	backdrop-filter: blur(0px);
+	overflow: none;
+}
+
+.brw_CS p {
+	padding-top:20px;
+	padding-bottom: 80px;
+	padding-left: 35px;
+	padding-right: 35px;
+	color:rgba(183,183,183,0.00);
+	font-size:18px;
+	transition-duration: 0.5s;
+	transition-delay: 0.5s;
+}
+
+.brw_CS:hover p {
+	transform: translate(0,-10px);
+	color:rgba(183,183,183,1.00);
+	transition-delay: 0s;
+}
+
+
+footer {
+	background-color:rgba(0,0,0,1.0);
+	height:40px;
+}
+
+footer h4 {
+	padding-top:10px;
+	color:white;
+	text-align: center;
+}
+
+
+
+
+/*  mediumscreem */
+@media screen and (max-width:1600px) {
+
+header {
+    height: 50px;
+    width: 100vw;
+}
+
+header h1 {
+    left: 50%;
+	top:10px;
+    transform: translate(-50%);
+    font-size: 20px;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	margin-top:3px; 
+	letter-spacing: 2px;
+	transition-duration: 0.4s;
+	user-select: none;
+}
+
+header a {
+    color: rgba(131,131,131,1.00);
+    text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	user-select: none;
+	transition-duration: 0.5s;
+	font-size: 15px;
+}
+
+header a:hover {
+	color: rgba(255,255,255,1.00);
+	transition:color 0.5s;
+}
+
+header li {
+	display: inline;
+}
+
+header ul {
+    position: absolute;
+	right: 10%;
+	top: 15px;
+	user-select: none;
+}
+
+.Main {
+	margin-left: 10%;
+	margin-right: 10%;
+	position: absolute;
+	width:80%;
+	height:250px;
+	background: linear-gradient(90deg,rgba(00,0,0,1.00),rgba(255,255,255,0.00),rgba(00,0,0,1.00)),url("BG/CFS_Art/CFS_Art.png");
+	background-size:100%;
+	background-position: center;
+	user-select: none;
+	transform: translateZ(0); /* 触发 GPU 加速 */
+	will-change: transform; /* 提示浏览器优化 */
+}
+
+.Main:hover {
+	background-size:110%;
+	background-position: center;
+	user-select: none;
+}
+
+.st {
+	position: absolute;
+	left: 10vw;
+	right: 10vw;
+	top: 250px;
+	height:35px;
+	user-select: none;
+}
+
+
+.st h2 {
+		color: white;
+		text-align: center;
+	}
+	
+
+.horizon {
+	display: flex;
+	align-items: center;
+}
+
+
+.horizon {
+	display: flex;
+	align-items: center;
+}	
+
+.brw_WP {
+	width: 300px;
+	height:125px;
+	text-align: center;
+	transition-duration: 0.5s;
+	backdrop-filter: blur(3px);
+	margin-top: 300px;
+	overflow: none;
+	user-select: none;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background: url("brw/CFSART_Wall_Paper/Tennkinoko_Daijoubu_Tokyo.png");
+	background-position: center;
+	background-size: 140%;
+	background-repeat: no-repeat;
+	transform: translateZ(0); /* 触发 GPU 加速 */
+	will-change: transform; /* 提示浏览器优化 */
+}
+
+.brw_WP:hover {
+	background: url("brw/CFSART_Wall_Paper/Tennkinoko_Huahuodahui_Shibuya.png") center;
+	background-size: 180%;
+}
+
+.brw_WP h2 {
+	padding-top:40px;
+	color:white;
+	background-color: rgba(0,0,0,0.00);
+	font-size: 20px;
+}
+
+.brw_WP a {
+    color: rgba(183,183,183,1.00);
+	background-color: rgba(0,0,0,0.50);
+	backdrop-filter: blur(3px);
+	overflow: none;
+    text-decoration:none;
+	padding: 3px;
+	border-radius: 10px;
+	transition-duration: 0.5s;
+}
+
+.brw_WP a:hover {
+	text-decoration-color: rgba(0,0,0,0.00);
+	color: rgb(186, 233, 255);
+	background-color: rgba(0,0,0,0.00);
+	backdrop-filter: blur(0px);
+	overflow: none;
+}
+
+.brw_WP p {
+	padding-top:20px;
+	padding-bottom: 80px;
+	padding-left: 35px;
+	padding-right: 35px;
+	color:rgba(183,183,183,0.00);
+	font-size:18px;
+	transition-duration: 0.5s;
+	transition-delay: 0.5s;
+}
+
+.brw_WP:hover p {
+	transform: translate(0,-10px);
+	color:rgba(183,183,183,1.00);
+	transition-delay: 0s;
+}
+
+.brw_CS {
+	width: 300px;
+	height:125px;
+	text-align: center;
+	transition-duration: 0.5s;
+	backdrop-filter: blur(3px);
+	margin-top: 300px;
+	overflow: none;
+	user-select: none;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: url("BG/CFS_Art/CFS_Art.png");
+	background-position: center;
+	background-size: 140%;
+	background-repeat: no-repeat;
+	transform: translateZ(0); /* 触发 GPU 加速 */
+	will-change: transform; /* 提示浏览器优化 */
+}
+
+.brw_CS:hover {
+	background: url("BG/CFS_Art_02/CFS_Art_02.png") center;
+	background-size: 180%;
+}
+
+.brw_CS h2 {
+	padding-top:40px;
+	color:white;
+	background-color: rgba(0,0,0,0.00);
+	font-size: 20px;
+}
+
+.brw_CS a {
+    color: rgba(183,183,183,1.00);
+	background-color: rgba(0,0,0,0.50);
+	backdrop-filter: blur(3px);
+	overflow: none;
+    text-decoration:none;
+	padding: 3px;
+	border-radius: 10px;
+	transition-duration: 0.5s;
+}
+
+.brw_CS a:hover {
+	text-decoration-color: rgba(0,0,0,0.00);
+	color: rgb(255, 230, 90);
+	background-color: rgba(0,0,0,0.00);
+	backdrop-filter: blur(0px);
+	overflow: none;
+}
+
+.brw_CS p {
+	padding-top:20px;
+	padding-bottom: 80px;
+	padding-left: 35px;
+	padding-right: 35px;
+	color:rgba(183,183,183,0.00);
+	font-size:18px;
+	transition-duration: 0.5s;
+	transition-delay: 0.5s;
+}
+
+.brw_CS:hover p {
+	transform: translate(0,-10px);
+	color:rgba(183,183,183,1.00);
+	transition-delay: 0s;
+}
+
+
+}
+
+
+
+
